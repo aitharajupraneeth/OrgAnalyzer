@@ -34,8 +34,8 @@ var objectsToExclude = ['HK_Sobject_Metadata__c','HK_Apex_Class_Inbound__c','HK_
             oauth2 : {
                 // you can change loginUrl to connect to sandbox or prerelease env.
 
-                clientId : '3MVG9i1HRpGLXp.pZa8FXQtglpbEEBnCnlmYCGwOj82MloBw65GePNRKLds8ksPhd8sI8Z6rQwvjqMGq5xfly',
-                clientSecret : '7682184784322531455',
+                clientId : '3MVG9fMtCkV6eLhePUUGgYZz_829_85yiASQN4T1xd7AAe5sPrO1hD6qVflsPaDVmpNMOFKCwRFhcCoQNT5bk',
+                clientSecret : 'C684AE953E972C67C46370C5F789C063F21CD35D5D01A903609959DD8A171B04',
                 redirectUri : 'http://localhost:3000/'
             }
         });
@@ -46,7 +46,7 @@ var objectsToExclude = ['HK_Sobject_Metadata__c','HK_Apex_Class_Inbound__c','HK_
  response.send(res);
  //rboine.hackathon@salesforce.com.sourceorg','Dreamjob11'
  */
-    conn.login('admin@salesforce.com.wave','Dreamjob123')
+    conn.login('aitharaju.praneeth@gmail.com','Saihemanth1!')
         .then(function(userInfo){
             console.log('**' + userInfo.id);
         })
